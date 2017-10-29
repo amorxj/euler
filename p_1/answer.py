@@ -17,4 +17,8 @@ def count(r,mlist):
             sum+=x
     return sum
 
-print count(1000,[3,5])
+def do_main():
+    print count(1000,[3,5])
+
+if __name__ == '__main__':
+    do_main()
